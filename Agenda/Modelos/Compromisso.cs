@@ -6,7 +6,7 @@ public class Compromisso
 {
     public DateOnly Data { get; set; }
     public TimeOnly Hora { get; set; }
-    public required string Descricao { get; set; }
+    public string Descricao { get; set; }
     public Local? Local { get; set; }
     public List<Participante> Participantes = new();
     private List<Anotacao> _anotacoes = new();
@@ -26,9 +26,14 @@ public class Compromisso
         else
             return false;
     }
-     protected bool HoraEhValida(TimeOnly hora){
-        if(hora>TimeOnly.FromDateTime(DateTime.Now))
+     protected bool HoraEhValida(TimeOnly hora, DateOnly data){
+        if(data == DateOnly.FromDateTime(DateTime.Now)){
+            if(hora>TimeOnly.FromDateTime(DateTime.Now))
             return true;
+        }
+        if(data > DateOnly.FromDateTime(DateTime.Now)){
+            return true;
+        }
         else
             return false;  
     }
@@ -42,7 +47,7 @@ public class Compromisso
         {
             throw new Exception("Data inválida. Insira uma data futura.");
         }
-        if(HoraEhValida(hora)){
+        if(HoraEhValida(hora, data)){
             Hora = hora;
         }
         else
@@ -61,7 +66,7 @@ public class Compromisso
         {
             throw new Exception("Data inválida. Insira uma data futura.");
         }
-        if(HoraEhValida(hora)){
+        if(HoraEhValida(hora, data)){
             Hora = hora;
         }
         else

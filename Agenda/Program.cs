@@ -1,4 +1,5 @@
-﻿using Agenda.Models;
+﻿using System.Data.Common;
+using Agenda.Models;
 
 namespace Agenda;
 
@@ -11,7 +12,7 @@ class Program
 
         List<Compromisso> compromissos = new List<Compromisso>();
         int opcao;
-
+        
         do
         {
             Console.Clear();
@@ -32,7 +33,23 @@ class Program
             switch (opcao)
             {
                 case 1:
-                    Compromisso novo = new Compromisso();
+                    Console.Write("Insira uma data (dd/mm/aaaa): ");
+                    var dataLida = Console.ReadLine();
+                    DateOnly data;
+                    if(!DateOnly.TryParse(dataLida, out data)){
+                        Console.WriteLine("Data inválida");
+                        break;
+                    }
+                    Console.Write("Insira um horario (hh:mm): ");
+                    var horaLida = Console.ReadLine();
+                    TimeOnly hora;
+                    if(!TimeOnly.TryParse(horaLida, out hora)){
+                        Console.WriteLine("Horário inválido");
+                        break; 
+                    }
+                    Console.Write("Insira um nome para o compromisso: ");
+                    string descricao = Console.ReadLine();
+                    Compromisso novo = new Compromisso(data, hora, descricao);
                     compromissos.Add(novo);
                     Console.WriteLine("Compromisso registrado com sucesso!");
                     break;

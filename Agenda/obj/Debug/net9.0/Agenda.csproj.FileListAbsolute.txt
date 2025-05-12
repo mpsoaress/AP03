@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.sourcelink.json
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\bin\Debug\net9.0\Agenda.exe
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\bin\Debug\net9.0\Agenda.deps.json
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\bin\Debug\net9.0\Agenda.runtimeconfig.json
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\bin\Debug\net9.0\Agenda.dll
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\bin\Debug\net9.0\Agenda.pdb
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.dll
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\refint\Agenda.dll
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.pdb
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\Agenda.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Documentos\Faculdade\3o periodo\POO\ap03\Agenda\obj\Debug\net9.0\ref\Agenda.dll
